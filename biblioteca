@@ -1,0 +1,25 @@
+class biblioteca:
+    #criando o metodo construtor de classe
+    def __init__(self, id, titulo, autor):
+        self .id = id
+        self .autor = autor
+        self .tutulo = titulo
+        #metodo cria livro
+        def mostrar(self):
+            print(f'vc escolheu o livro do autor{self.titulo}')
+        
+        
+        
+        
+        
+        
+        from biblioteca import biblioteca
+    #book1 = biblioteca(1,'o pequeno principe', 'saint')
+    #bool2 = biblioteca(2,'java para iniciantes', 'autor desconhecido')
+
+    id = 1 
+    titulo = str(input('digite o titulo do livro'))
+    autor = str(input('digita o autor do livro'))
+
+    book = biblioteca(id, titulo, autor)
+    book.mostrar()
